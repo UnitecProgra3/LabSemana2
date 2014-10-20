@@ -48,7 +48,7 @@ void loopJuego()
                     if(click_x<66+(*i) && click_x>(*i) && click_y<66 && click_y>0)
                     {
                         pelotitas_x.erase(i);
-                        i--;
+                        break;
                     }
                 }
             }
